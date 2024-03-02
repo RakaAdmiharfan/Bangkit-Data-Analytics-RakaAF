@@ -19,7 +19,7 @@ filtered_hour_df = hour_df[needed_columns]
 
 
 
-st.title('Mean Count Analysis')
+st.title('Visualisasi Data Berdasarkan Pertanyaan Bisnis')
 
 
 st.subheader('Mean Count by Season')
