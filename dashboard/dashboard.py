@@ -45,6 +45,10 @@ avg_rentals_per_day = avg_rentals_per_day.reindex(pd.CategoricalIndex(list(day_o
 
 ############################################################################################################
 # Visualisasi Data
+st.write('Nama: Raka Admiharfan Fatihah')
+st.write('Email: m002d4ky2495@bangkit.academy')
+st.write('ID Dicoding: raka_af')
+
 st.title('Visualisasi Data Berdasarkan Pertanyaan Bisnis')
 
 # Visualisasi Bar Chart: Perbandingan Rata-rata Penyewaan pada Hari Kerja dan Hari Libur
