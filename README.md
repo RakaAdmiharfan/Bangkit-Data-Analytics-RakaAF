@@ -13,6 +13,8 @@
 1. cd .\dashboard\
 2. streamlit run dashboard.py
 
+Jika tabel tidak muncul, silahkan lakukan refresh.
+
 # Deskripsi Proyek
 Proyek ini adalah proyek analisis data dari dataset bike-sharing. Dataset ini berisi data dari tahun 2011 hingga 2012. Dataset ini memiliki 17 kolom dan 17389 baris pada data hour.csv dan 731 baris pada data day.csv. Kolom-kolom tersebut adalah:
 
