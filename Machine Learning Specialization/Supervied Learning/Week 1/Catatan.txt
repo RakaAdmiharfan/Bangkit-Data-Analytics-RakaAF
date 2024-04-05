@@ -1,0 +1,17 @@
+Regresi linear
+Tentu! Berikut adalah ringkasan dari konten pada halaman ini:
+- Video ini membahas tentang proses umum dari pembelajaran terawasi (supervised learning) dan model regresi linier.
+- Model regresi linier adalah algoritma pembelajaran yang paling banyak digunakan di dunia saat ini.
+- Contoh yang digunakan dalam video ini adalah memprediksi harga rumah berdasarkan ukuran rumah.
+- Model regresi linier adalah contoh dari model pembelajaran terawasi yang disebut model regresi, karena memprediksi angka seperti harga dalam dolar.
+- Ada juga model pembelajaran terawasi lainnya yang disebut model klasifikasi, yang memprediksi kategori atau kelas diskrit.
+- Perbedaan antara klasifikasi dan regresi adalah bahwa klasifikasi memiliki jumlah output yang terbatas, sedangkan regresi memiliki jumlah output yang tak terbatas.
+- Data dapat direpresentasikan dalam bentuk grafik atau tabel, dengan input (x) dan output (y) yang ingin diprediksi.
+- Dataset yang digunakan untuk melatih model disebut set pelatihan (training set).
+- Notasi standar dalam pembelajaran mesin digunakan untuk menggambarkan input (x), output (y), dan set pelatihan (training set).
+- Fungsi (f) / model ini digunakan untuk memprediksi nilai yang diestimasikan (y-hat) berdasarkan input baru (x).
+- Dalam pembelajaran terawasi, kita mencari cara untuk merepresentasikan fungsi f.
+- Dalam contoh ini, kita menggunakan fungsi linear (garis lurus) sebagai dasar, yaitu f(x) = wx + b.
+- Fungsi ini disebut regresi linear, khususnya regresi linear univariat karena hanya menggunakan satu variabel input.
+- Ada juga regresi linear multivariat yang menggunakan beberapa variabel input.
+- Selanjutnya, kita perlu membuat fungsi biaya (cost function) untuk melatih model dan menemukan nilai terbaik untuk w dan b.
