@@ -1,5 +1,6 @@
 Regresi linear
 Tentu! Berikut adalah ringkasan dari konten pada halaman ini:
+
 - Video ini membahas tentang proses umum dari pembelajaran terawasi (supervised learning) dan model regresi linier.
 - Model regresi linier adalah algoritma pembelajaran yang paling banyak digunakan di dunia saat ini.
 - Contoh yang digunakan dalam video ini adalah memprediksi harga rumah berdasarkan ukuran rumah.
@@ -17,6 +18,7 @@ Tentu! Berikut adalah ringkasan dari konten pada halaman ini:
 - Selanjutnya, kita perlu membuat fungsi biaya (cost function) untuk melatih model dan menemukan nilai terbaik untuk w dan b.
 
 Cost function:
+
 - Video ini membahas tentang implementasi regresi linear dalam machine learning.
 - Model regresi linear menggunakan parameter w dan b untuk memprediksi nilai output berdasarkan input.
 - Nilai w dan b mempengaruhi bentuk garis regresi pada grafik.
@@ -26,5 +28,20 @@ Cost function:
 - Fungsi biaya ini menghitung selisih antara prediksi (y hat) dan target (y), kemudian mengkuadratkannya.
 - Fungsi biaya ini kemudian dijumlahkan untuk semua contoh pelatihan dan dibagi dengan jumlah contoh pelatihan.
 - Tujuan akhirnya adalah menemukan nilai w dan b yang membuat fungsi biaya seminimal mungkin.
+
+Penurunan Gradien
+
+- Video ini membahas tentang algoritma gradient descent yang digunakan untuk mencari nilai parameter w dan b yang menghasilkan nilai cost function j yang paling kecil.
+
+- Gradient descent adalah algoritma yang digunakan dalam berbagai jenis machine learning, termasuk linear regression dan neural network models.
+
+- Algoritma gradient descent dapat digunakan untuk mencari nilai parameter yang menghasilkan nilai cost function j yang paling kecil, tidak hanya untuk linear regression tetapi juga untuk model dengan lebih dari dua parameter.
+
+- Langkah-langkah dalam gradient descent adalah memulai dengan nilai awal untuk w dan b, kemudian mengubah nilai-nilai tersebut sedikit demi sedikit untuk mengurangi nilai cost function j.
+
+- Gradient descent mencari arah penurunan tercepat untuk mengambil langkah berikutnya, dengan tujuan mencapai nilai minimum dari cost function j.
+
+- Terdapat kemungkinan terdapat lebih dari satu minimum pada cost function j, yang disebut local minima.
+  Gradient descent memiliki sifat menarik di mana hasilnya dapat berbeda tergantung pada titik awal yang dipilih.
 
 ![alt text](image.png)
