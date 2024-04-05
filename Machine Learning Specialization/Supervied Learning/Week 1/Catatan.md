@@ -15,3 +15,16 @@ Tentu! Berikut adalah ringkasan dari konten pada halaman ini:
 - Fungsi ini disebut regresi linear, khususnya regresi linear univariat karena hanya menggunakan satu variabel input.
 - Ada juga regresi linear multivariat yang menggunakan beberapa variabel input.
 - Selanjutnya, kita perlu membuat fungsi biaya (cost function) untuk melatih model dan menemukan nilai terbaik untuk w dan b.
+
+Cost function:
+- Video ini membahas tentang implementasi regresi linear dalam machine learning.
+- Model regresi linear menggunakan parameter w dan b untuk memprediksi nilai output berdasarkan input.
+- Nilai w dan b mempengaruhi bentuk garis regresi pada grafik.
+- Tujuan regresi linear adalah memilih nilai w dan b sehingga garis regresi sesuai dengan data pelatihan.
+- Untuk mengukur sejauh mana garis regresi cocok dengan data, digunakan fungsi biaya (cost function).
+- Fungsi biaya dalam regresi linear umumnya menggunakan squared error cost function.
+- Fungsi biaya ini menghitung selisih antara prediksi (y hat) dan target (y), kemudian mengkuadratkannya.
+- Fungsi biaya ini kemudian dijumlahkan untuk semua contoh pelatihan dan dibagi dengan jumlah contoh pelatihan.
+- Tujuan akhirnya adalah menemukan nilai w dan b yang membuat fungsi biaya seminimal mungkin.
+
+![alt text](image.png)
